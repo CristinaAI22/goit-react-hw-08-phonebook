@@ -48,7 +48,7 @@ export const AddContact = () => {
     }
     dispatch(addContact({ name, number }));
 
-    setSuccessMessage('Contact added successfully.');
+    setSuccessMessage('Contact added successfully!');
     setTimeout(() => {
       setSuccessMessage('');
     }, 2000);
