@@ -1,11 +1,11 @@
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/contacts/operations';
 import { useDispatch } from 'react-redux';
 import css from './Contact.module.css';
 
 export const Contact = ({ contact }) => {
   const dispatch = useDispatch();
   const contactName = contact.name;
-  const contactNumber = contact.phone;
+  const contactNumber = contact.number;
   const handleRemove = () => {
     dispatch(deleteContact(contact.id));
   };

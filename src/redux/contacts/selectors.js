@@ -9,7 +9,6 @@ export const selectFilteredContacts = createSelector(
   [selectFilterSlice, selectContacts],
   (filterSlice, contacts) => {
     const textFilter = filterSlice;
-    console.log(textFilter);
 
     return contacts.filter(contact =>
       contact.name.toLowerCase().includes(textFilter.toLowerCase())

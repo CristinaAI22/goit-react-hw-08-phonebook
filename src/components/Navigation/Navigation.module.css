@@ -1,0 +1,27 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #0f4d81;
+}
+.link:hover {
+  color: #0fb8f5;
+}
+
+.homeIcon {
+  font-size: 30px;
+}
+
+.linkButton {
+  border: 0.15rem solid #0fb8f5;
+  border-radius: 25%;
+  color: #0fb8f5;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 12.33px 15.33px;
+}
+.linkButton:hover {
+  background-color: #0fb8f5;
+  color: #fff;
+}
